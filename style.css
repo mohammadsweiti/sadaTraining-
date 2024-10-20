@@ -11,3 +11,11 @@ p{
     background-color: blueviolet;
     color: white;
 }
+*{
+    background-color: aliceblue;
+    color: black;
+}
+
+.first{
+    background-color: orangered;
+}
