@@ -1,0 +1,13 @@
+ol , ul {
+    background-color: aqua;
+    font-size: 35px;
+    font-weight: bolder;
+}
+#this1{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    background-color: blueviolet;
+    color: white;
+}
