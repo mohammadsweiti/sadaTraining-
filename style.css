@@ -1,3 +1,14 @@
+/*
+1)color
+2) background color
+3) text-decoration
+4) text-transform
+5) line-height
+6) letter-spacing
+7) box-shadow: x-axes y-axes breul spread 
+
+*/
+
 ol , ul {
     background-color: aqua;
     font-size: 35px;
@@ -33,8 +44,18 @@ p + span{
 }
 
 p~span{
-    color: red;
-}
+    background-color: black;
+    color: red !important  ;}
+
 *{
 
+}
+span::after{
+    content: '/****/';
+}
+span:hover{
+    background-color: blueviolet;
+}
+span:target{
+    color: black
 }
