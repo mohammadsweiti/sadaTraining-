@@ -73,3 +73,12 @@ div.shadow:hover{
     border: 1px gold solid;
     box-shadow: 2px 2px 5px 1px inset;
 }
+
+body{
+    border: 5px solid yellowgreen;
+    background-image: url("./img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;/* cover contain */
+    background-position:center ;
+    background-position-x: 155px;
+}
