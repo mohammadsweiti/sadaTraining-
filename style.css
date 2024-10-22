@@ -59,3 +59,17 @@ span:hover{
 span:target{
     color: black
 }
+div.shadow{
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px 2px inset;
+}
+div.shadow{
+    width: 250px;
+    height: 25px;
+    border: 1px salmon solid;
+    box-shadow: 2px 2px 5px 4px ;
+}
+div.shadow:hover{
+    border: 1px gold solid;
+    box-shadow: 2px 2px 5px 1px inset;
+}
