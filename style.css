@@ -111,3 +111,32 @@ body{
     left: 500px;
     padding: 15px;
 }
+nav ul{
+    list-style: none;
+    display: inline-block;
+    position: sticky;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+
+}
+header{
+    background-color: white;
+    position: sticky;   
+    top: 1px;
+    z-index: 1;
+    
+}
+nav ul li:hover{
+    color: white;
+    position: sticky;
+    top: 1px;
+}
+nav{
+    position: sticky;
+    top: 1px;
+}
