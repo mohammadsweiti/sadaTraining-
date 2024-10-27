@@ -97,9 +97,9 @@ body{
     border-left: 10px red solid ;
     border-top: 10px black solid;
     border-bottom: green 10px solid;
-    position: relative;
+    position: fixed;
     left: 500px;
-    top: 90px;
+    top: 400px;
 }
 .absol{
     background-color: black;
