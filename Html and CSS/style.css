@@ -140,3 +140,47 @@ nav{
     position: sticky;
     top: 1px;
 }
+
+@media (max-width: 1250px){
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: red;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    header{
+        display: none;
+
+    }
+
+    h1{
+        background-color: aliceblue;
+        color: black;
+    }   
+    p{
+        color: black;
+        background-color: wheat;
+        width: 85%;
+        max-height: 150px;
+    }
+    ul {
+        width: 85vw;
+    }
+    p.first{
+        background-color: wheat;
+        color: black;
+
+    }
+}
+@media print{
+    body{
+        background-color: whitesmoke;
+        color: black;
+        border: none;
+    }
+
+}
+
