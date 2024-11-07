@@ -1,0 +1,72 @@
+.logo{
+    margin-left: 26px;
+}
+
+nav{
+    background-color: #666;;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.search{
+    margin-right: 25px;
+}
+.todo{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.new{
+    width: 100vw;
+    /* margin-left: 155; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+.todos{
+    width: 100vw;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+    /* border: 2px solid black; */
+
+}
+
+.todos ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    width: 30vw ;
+
+}
+
+.done ul li{
+    display: flex;
+    border: 1px solid black;
+    width: 30vw ;
+    justify-content: flex-start;
+    text-decoration-line: line-through;
+}
+
+
+.todos ul li input{
+    background-color: blue;
+}

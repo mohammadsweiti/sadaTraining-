@@ -1,4 +1,4 @@
-.container{
+.container {
     border: 2px solid salmon;
     display: flex;
     justify-content: space-evenly;
@@ -7,10 +7,9 @@
     flex-wrap: wrap;
     flex-basis: 25%;
     flex-grow: 2;
-    
-
 }
-.box{
+
+.box {
     height: 150px;
     width: 150px;
     background-color: aqua;
@@ -18,10 +17,11 @@
     text-align: center;
     padding-top: 50px;
 }
-.l{
-    order:-1;
-}
-.k{
-    align-self: flex-end;
 
+.l {
+    order: -1;
+}
+
+.k {
+    align-self: flex-end;
 }
