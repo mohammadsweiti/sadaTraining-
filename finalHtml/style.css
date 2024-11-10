@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none ;
+    display: flex;
+    width: 97vw;
+    height: 5vmax;
+    /* background-color: black; */
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+
+
+}
+header nav ul li{
+    padding: 10px;
+}
+
+header nav ul li:hover{
+    color: brown;
+    
+
+}
+
+
+
+.trans{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 0.3s ease-out 100ms;
+}
+
+.trans:hover{
+    /* background-color: blue; */
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+
+    width: 50%;
+
+}
