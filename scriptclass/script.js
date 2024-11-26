@@ -1,3 +1,6 @@
+
+
+
 class car{
     #engineSize = 2200; // this is protected 
     constructor(make,model,year){
@@ -12,6 +15,7 @@ class car{
     }
     
 }
+
 
 const car1 = new car("BMW","m5" , 2024);
 car1.printCar();

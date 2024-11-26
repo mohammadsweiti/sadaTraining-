@@ -1,0 +1,14 @@
+.border{
+    color: black;
+    background-color: aquamarine;
+    border: 10px solid black;
+}
+
+.one{
+    position: relative;
+    top:100px;
+    left:100px;
+    right:100px;
+    bottom:100px;
+
+}
